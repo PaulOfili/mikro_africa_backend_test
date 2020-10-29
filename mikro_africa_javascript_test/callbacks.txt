@@ -1,2 +1,2 @@
-A callback function is a function passed as a paramter to a second function to ensure the callback function runs only after the second function is completed.
+A callback function is a function passed as a parameter to a second function to ensure the callback function runs only after the second function is completed.
 The second function is often an asynchronous function. 
