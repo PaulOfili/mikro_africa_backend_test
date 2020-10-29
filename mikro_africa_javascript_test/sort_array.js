@@ -1,4 +1,4 @@
-data = [
+const data = [
     {
         "name": "test 10",
         "country": "USA",
@@ -45,6 +45,7 @@ const comparator = (a, b) => {
     }
     return 0;
 }
-sorted_data = data.sort(comparator);
 
-console.log(sorted_data);
+data.sort(comparator);
+
+console.log("sorted_data: ", data);
